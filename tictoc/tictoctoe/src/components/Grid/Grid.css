@@ -1,0 +1,25 @@
+.grid-wrapper{
+   max-width: 500px;
+}
+.grid{
+    height:500px;
+    width:500px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+/* Now we will use flex wrap to wrap all the cards */ 
+   flex-wrap: wrap;
+}
+.turn-highlight{
+   color: white;
+}
+.reset{
+   padding:1rem;
+   color:white;
+   background-color: var(--resetGreen);
+   border-radius: 10px;
+   border: none;
+   /* This width is set according to the width of the parent in this case it is  grid-wrapper */
+   width:100%
+
+}
